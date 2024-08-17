@@ -1,0 +1,105 @@
+body {
+    background-color: #303030;
+}
+
+.LogoPichau {
+    position: relative;
+    left: 10rem;
+}
+
+.logoTipo {
+    display: flex;
+    max-width: 100%;
+    height:75px;
+    width:238.66px;
+}
+
+.Dep {
+    background-color: red;
+    color-scheme: white;
+    color:white;
+    border-radius: 0.6rem;
+    border-top-color:red ;
+    border-bottom-color: red;
+    border-left-color: red;
+    border-right-color:red;
+    height: 75px;
+    width:300px ;
+    position: relative;
+    bottom: 32px;
+    
+}
+
+.DepAcess {
+    font-size: larger;
+}
+
+.DepAcess2 {
+    font-size: xx-large;
+}
+
+.Cart {
+    background-color: rgb(64, 235, 30);
+    color-scheme: white;
+    color:white;
+    border-radius: 0.6rem;
+    border-top-color:rgb(64, 235, 30) ;
+    border-bottom-color: rgb(64, 235, 30);
+    border-left-color: rgb(64, 235, 30);
+    border-right-color:rgb(64, 235, 30);
+    height: 75px;
+    width:200px ;
+    position: relative;
+    bottom: 178px;
+    left: 1195px;
+}
+
+.CartAcess {
+    font-size: larger;
+
+}
+
+.CartAcess2 {
+    font-size: small;
+    
+}
+
+.Searching {
+    background-color: gray;
+    position: relative;
+    border-radius: 0.6rem;
+    left: 320px;
+    bottom: 170px;
+    width: 1066px;
+    height: 48px;
+    border-top-color:gray ;
+    border-bottom-color: gray;
+    border-left-color: gray;
+    border-right-color:gray;
+    font-size: large;
+}
+
+.bannerPrincipal {
+    position: relative;
+    bottom: 150px;
+}
+
+.BannerPcGamer {
+    position: relative;
+    bottom: 120px;
+    left: 210px;
+}
+
+.BannerLeft {
+    position: relative;
+    bottom: 100px;
+    left: 210px;
+
+}
+
+.BannerRight {
+    position: relative;
+    bottom: 244px;
+    left: 960px;
+
+}
