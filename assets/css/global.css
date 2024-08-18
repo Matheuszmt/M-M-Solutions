@@ -5,6 +5,7 @@ body {
 .LogoPichau {
     position: relative;
     left: 10rem;
+    bottom: 1rem;
 }
 
 .logoTipo {
@@ -15,18 +16,19 @@ body {
 }
 
 .Dep {
-    background-color: red;
+    background-color: rgb(58, 92, 184);
     color-scheme: white;
     color:white;
     border-radius: 0.6rem;
-    border-top-color:red ;
-    border-bottom-color: red;
-    border-left-color: red;
-    border-right-color:red;
-    height: 75px;
-    width:300px ;
+    border-top-color:rgb(58, 92, 184) ;
+    border-bottom-color: rgb(58, 92, 184);
+    border-left-color: rgb(58, 92, 184);
+    border-right-color:rgb(58, 92, 184);
+    height: 45px;
+    width:200px ;
     position: relative;
-    bottom: 32px;
+    top: 145px;
+    left: 25px;
     
 }
 
@@ -39,19 +41,21 @@ body {
 }
 
 .Cart {
-    background-color: rgb(64, 235, 30);
+    background-color: rgb(58, 92, 184);
     color-scheme: white;
-    color:white;
+    color:White;
     border-radius: 0.6rem;
-    border-top-color:rgb(64, 235, 30) ;
-    border-bottom-color: rgb(64, 235, 30);
-    border-left-color: rgb(64, 235, 30);
-    border-right-color:rgb(64, 235, 30);
-    height: 75px;
-    width:200px ;
+    border-top-color:rgb(58, 92, 184);
+    border-bottom-color: rgb(58, 92, 184);
+    border-left-color: rgb(58, 92, 184);
+    border-right-color:rgb(58, 92, 184);
+    height: 55px;
+    width:195px ;
     position: relative;
-    bottom: 178px;
-    left: 1195px;
+    top: 70px;
+    left: 1440px;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .CartAcess {
@@ -69,7 +73,7 @@ body {
     position: relative;
     border-radius: 0.6rem;
     left: 320px;
-    bottom: 170px;
+    top: 14px;
     width: 1066px;
     height: 48px;
     border-top-color:gray ;
@@ -101,5 +105,36 @@ body {
     position: relative;
     bottom: 244px;
     left: 960px;
+
+}
+
+.Cabecalho {
+    background-color: rgba(15, 13, 13, 0.753);
+    width: 1896px;
+    height: 300px;
+}
+
+.BarraLateral {
+    background-color: rgba(15, 13, 13, 0.753);
+    display: flex;
+    width: 250px;
+    height: 700px;
+}
+
+.Opcoes {
+    padding: 1.7rem;
+}
+
+.Opcoes li {
+    padding: 1rem;
+    background-color: gray;
+    border-radius: 1rem;
+    box-shadow: black;
+    width: 165px;
+    height: 10px;
+    color: white;
+    font-size: larger;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
